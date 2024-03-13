@@ -1,0 +1,817 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  height: 70px;
+  padding: 10px 30px;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px gray;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  /* align-items: center; */
+  justify-content: space-between;
+  display: flex;
+}
+
+nav a h2 {
+  color: red;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+nav ul {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: 800;
+  font-family: cursive;
+  font-size: 18px;
+  transition: 0.5s all ease;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+/* main  */
+
+
+.main {
+  background-image: url(./img/tomato1.webp);
+  height: 85vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 34px;
+  color: black;
+  font-weight: lighter;
+  margin: 0;
+
+}
+
+.main h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.main h1 span {
+  padding: 0 15px 0 0;
+  color: red;
+  border-right: 4px solid rgb(255, 255, 255);
+}
+
+.main p {
+  text-align: center;
+  font-family: cursive;
+
+}
+
+.main button {
+  margin-top: 20px;
+  padding: 12px 22px;
+  background-color: red;
+  font-size: 18px;
+  font-weight: 600;
+  border: #fff 2px solid;
+  color: #fff;
+  cursor: pointer;
+  transition: .7s all ease;
+}
+
+.main button:hover {
+  color: red;
+  background-color: #fff;
+  border: 2px solid red;
+}
+
+
+/* --------------------------
+About stats here
+------------------------*/
+
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  padding: 50px 10px;
+  height: auto;
+}
+
+.about .content h2 {
+  font-size: 39px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+}
+
+.content span {
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 17px;
+
+}
+
+.content p {
+  font-family: math;
+  padding-top: 19px;
+  font-weight: lighter;
+}
+
+.content button {
+  padding: 14px 35px;
+  color: white;
+  background-color: red;
+  border: 2px solid white;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: .8s ease;
+
+}
+
+.content button:hover {
+  background-color: #fff;
+  color: red;
+  border: 2px solid red;
+}
+
+
+/*------------------------
+elements sec starts here 
+ -----------------------*/
+
+.elements {
+
+  background-color: whitesmoke;
+  padding: 50px;
+
+}
+
+.elements h2 {
+  font-size: 39px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.elements p {
+  font-size: 17px;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: 400;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.element-box {
+  padding: 59px 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ele-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  padding: 40px 30px;
+  box-shadow: 5px 5px 20px rgb(220, 219, 219);
+  transition: 1s all ease;
+}
+
+.ele-box:hover {
+  transform: translatey(-15px);
+  box-shadow: 5px 5px 20px rgb(185, 184, 184);
+  cursor: pointer;
+}
+
+.ele-box img {
+  width: 70%;
+}
+
+.ele-box span {
+  padding: 25px 0;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.ele-box p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: red;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide span {
+  font-size: 24px;
+  padding: 5px;
+  color: red;
+  font-weight: bolder;
+}
+
+.slide h5 {
+  font-size: 16px;
+  padding: 5px;
+  color: black;
+  font-weight: bolder;
+}
+
+
+/*==-----------------------
+--  menu starts here 
+------------------*/
+
+.menu {
+  padding: 50px;
+
+}
+
+.menu h4 {
+  font-size: 39px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.menu p {
+  font-size: 17px;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: 400;
+  text-align: center;
+}
+
+.menu-div div img {
+  width: 100px;
+}
+
+.menu-div {
+  margin-top: 80px;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgb(220, 220, 220);
+
+}
+
+
+
+.menu-div li,
+a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: rgb(156, 154, 154);
+  transition: .5s ease;
+}
+
+.menu-div li a:hover {
+  color: red;
+}
+
+.menu-div .dinner {
+  color: red;
+}
+
+.menu-item {
+  margin-top: 80px;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+
+
+
+
+
+.inner-item {
+  display: flex;
+  border: 1px solid rgb(223, 223, 223);
+  align-items: center;
+  /* justify-content: center; */
+  width: 500px;
+  /* flex-grow: 1; */
+}
+
+.inner-item img {
+  width: 80px;
+  padding: 20px;
+  border: 1px solid rgb(236, 234, 234);
+}
+
+.inner-item h5 {
+  padding: 0 40px;
+  /* text-align: end; */
+  font-size: 16px;
+}
+
+.inner-item p {
+  padding: 0 20px;
+  /* text-align: start; */
+  font-weight: lighter;
+}
+
+
+.inner-item span {
+  color: red;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 0 30px;
+}
+
+/* our gallery starts here */
+.sec-6 {
+  height: auto;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.sec-6 h1 {
+  font-size: 39px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sec-6 p {
+  font-size: 17px;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-weight: 400;
+  text-align: center;
+}
+
+.list-6 {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  gap: 50px;
+}
+
+.list-6 li {
+
+  list-style: none;
+}
+
+.list-6 li a {
+  color: black
+}
+
+.span-6 {
+  color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* padding: 30px 30px; */
+  gap: 30px;
+
+}
+
+/* reservation style starts from here */
+.sec-7 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-image: url(./img/tomato1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-7 h1 {
+  font-size: 39px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sec-7 p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reservation {
+  display: flex;
+  margin: 50px 30px;
+  box-shadow: 5px 5px 10px gray;
+  width: 100%;
+  background-color: #fff;
+}
+
+.left-7 {
+  width: 50%;
+}
+
+.left-7 h3 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 30px 0;
+  text-transform: capitalize;
+}
+
+.left-7 form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 30px;
+}
+
+.left-7 form input {
+  padding: 15px 20px;
+  outline-color: blue;
+}
+
+.left-7 form button {
+  padding: 15px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.right-7 {
+  width: 50%;
+}
+
+.right-7 img {
+  width: 100%;
+  padding: 30px;
+}
+
+/* blog styling starts from here */
+.sec-8 {
+  height: auto;
+  display: flex;
+  background-color: whitesmoke;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.sec-8 h1 {
+  font-size: 39px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sec-8 p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.blog-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-1 {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  background-color: white;
+  width: 340px;
+}
+
+.box-1 h3 {
+  background-color: red;
+  padding: 15px 10px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.box-1 p {
+  padding-left: 20px;
+  color: red;
+  font-weight: 900;
+}
+
+
+/* clients styling starts from here */
+.sec-9 {
+  height: auto;
+  display: flex;
+position: relative;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.client-div{
+  background-image: url(./img/images/Coffee\ Heading.png);
+  /* background-position: right; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+	width: 200px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	/* z-index: -1; */
+}
+
+.sec-9 h1 {
+  font-size: 39px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sec-9 p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.box-2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.inner-box{
+  filter: grayscale(100%);
+  border: 1px solid gray;
+}
+
+.innerbox-2{
+  margin-top: -10px;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.box-3{
+  background-image: url(./img/images/Sec-9\ pic\ 1\,3\ Our\ client\ Love.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 1px 1px 10px gray;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+ 
+}
+
+.box-3 div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+backdrop-filter: blur(1px);
+/* -webkit-backdrop-filter: blur(90%); */
+
+}
+
+.box-3 i{
+  font-size: 30px;
+  padding: 40px 0;
+}
+
+.box-3 p , h5{
+  color: gray;
+  padding: 20px 0;
+}
+
+.box-3 h2{
+text-transform: capitalize;
+}
+
+.box-3 i , h2 , span{
+  color: red;
+  font-weight: 900;
+}
+
+.box-3 span{
+font-size: 25px;
+}
+
+/* section 10 styling starts from here */
+.sec-10{
+  height: auto;
+  display: flex;
+  background-color: whitesmoke;
+  padding: 50px;
+}
+
+.div-10{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-11{
+  height: auto;
+  display: flex;
+  /* background-color: whitesmoke; */
+  flex-direction: column;
+  padding: 20px;
+  background-image: url(./img/images/Soup\ Bowl\ heading.png);
+  /* background-position: center; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-11{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+height: 80vh;
+}
+
+.div-11 h4{
+  color: gray;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.div-11 h1{
+color: rgb(85, 84, 84);
+font-size: 30px;
+font-weight: 900;
+text-transform: capitalize;
+padding: 15px 0;
+}
+
+.div-11 p{
+text-align: center;
+line-height: 25px;
+font-weight: bold;
+color: rgb(55, 54, 54);
+}
+
+.div-11 button{
+  margin-top: 22px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.div-11 button:hover{
+  color: red;
+  background-color: #fff;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 100px 30px;
+}
+
+.footer-contact h1{
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: rgb(84, 83, 83);
+}
+
+.footer-contact p{
+  padding-top: 15px;
+  color: gray;
+}
+
+.footer-span{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.footer-span span{
+  color: gray;
+  text-transform: capitalize;
+}
+
+.footer-row{
+  display: flex;
+  padding-top: 20px;
+}
+
+.footer-row img{
+  padding-right: 20px;
+}
+
+.footer-newsletter{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.footer-newsletter input{
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+.footer-newsletter button{
+  background-color: red;
+  width: 100px;
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.last-div{
+  height: auto;
+  padding: 30px 0;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+}
